@@ -1,9 +1,19 @@
-//
-//  classA.swift
-//  PauloLunaU2EP2
-//
-//  Created by Universidad Politecnica de Gómez Palacio on 14/03/19.
-//  Copyright © 2019 Universidad Politecnica de Gómez Palacio. All rights reserved.
-//
+import UIKit
 
-import Foundation
+class classA: UIViewController
+{
+    @IBOutlet weak var textA: UITextField!
+    override func viewDidLoad()
+    {
+     super.viewDidLoad()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "sgAB"
+        {
+            let classb = segue.destination as! classB
+            classb.varB = textA.text
+        }
+    }
+}
