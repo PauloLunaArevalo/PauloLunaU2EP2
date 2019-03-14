@@ -14,6 +14,17 @@
 		1A651672223AFFEB0002CC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A651670223AFFEB0002CC88 /* LaunchScreen.storyboard */; };
 		1A65167D223AFFEB0002CC88 /* PauloLunaU2EP2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65167C223AFFEB0002CC88 /* PauloLunaU2EP2Tests.swift */; };
 		1A651688223AFFEB0002CC88 /* PauloLunaU2EP2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A651687223AFFEB0002CC88 /* PauloLunaU2EP2UITests.swift */; };
+		1A65169A223B036E0002CC88 /* classA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A651699223B036E0002CC88 /* classA.swift */; };
+		1A65169C223B05810002CC88 /* classB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65169B223B05810002CC88 /* classB.swift */; };
+		1A65169E223B06F20002CC88 /* classC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65169D223B06F20002CC88 /* classC.swift */; };
+		1A65169F223B06F20002CC88 /* classC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65169D223B06F20002CC88 /* classC.swift */; };
+		1A6516A0223B06F20002CC88 /* classC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65169D223B06F20002CC88 /* classC.swift */; };
+		1A6516A2223B09330002CC88 /* classD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6516A1223B09330002CC88 /* classD.swift */; };
+		1A6516A3223B09330002CC88 /* classD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6516A1223B09330002CC88 /* classD.swift */; };
+		1A6516A4223B09330002CC88 /* classD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6516A1223B09330002CC88 /* classD.swift */; };
+		1A6516A6223B0CD50002CC88 /* classE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6516A5223B0CD50002CC88 /* classE.swift */; };
+		1A6516A7223B0CD50002CC88 /* classE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6516A5223B0CD50002CC88 /* classE.swift */; };
+		1A6516A8223B0CD50002CC88 /* classE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6516A5223B0CD50002CC88 /* classE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,11 @@
 		1A651683223AFFEB0002CC88 /* PauloLunaU2EP2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PauloLunaU2EP2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A651687223AFFEB0002CC88 /* PauloLunaU2EP2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauloLunaU2EP2UITests.swift; sourceTree = "<group>"; };
 		1A651689223AFFEB0002CC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A651699223B036E0002CC88 /* classA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classA.swift; sourceTree = "<group>"; };
+		1A65169B223B05810002CC88 /* classB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classB.swift; sourceTree = "<group>"; };
+		1A65169D223B06F20002CC88 /* classC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classC.swift; sourceTree = "<group>"; };
+		1A6516A1223B09330002CC88 /* classD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classD.swift; sourceTree = "<group>"; };
+		1A6516A5223B0CD50002CC88 /* classE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,11 @@
 				1A65166E223AFFEB0002CC88 /* Assets.xcassets */,
 				1A651670223AFFEB0002CC88 /* LaunchScreen.storyboard */,
 				1A651673223AFFEB0002CC88 /* Info.plist */,
+				1A651699223B036E0002CC88 /* classA.swift */,
+				1A65169B223B05810002CC88 /* classB.swift */,
+				1A65169D223B06F20002CC88 /* classC.swift */,
+				1A6516A1223B09330002CC88 /* classD.swift */,
+				1A6516A5223B0CD50002CC88 /* classE.swift */,
 			);
 			path = PauloLunaU2EP2;
 			sourceTree = "<group>";
@@ -260,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A65166A223AFFEB0002CC88 /* ViewController.swift in Sources */,
+				1A6516A2223B09330002CC88 /* classD.swift in Sources */,
+				1A65169A223B036E0002CC88 /* classA.swift in Sources */,
 				1A651668223AFFEB0002CC88 /* AppDelegate.swift in Sources */,
+				1A65169C223B05810002CC88 /* classB.swift in Sources */,
+				1A65169E223B06F20002CC88 /* classC.swift in Sources */,
+				1A6516A6223B0CD50002CC88 /* classE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A65169F223B06F20002CC88 /* classC.swift in Sources */,
+				1A6516A3223B09330002CC88 /* classD.swift in Sources */,
+				1A6516A7223B0CD50002CC88 /* classE.swift in Sources */,
 				1A65167D223AFFEB0002CC88 /* PauloLunaU2EP2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6516A0223B06F20002CC88 /* classC.swift in Sources */,
+				1A6516A4223B09330002CC88 /* classD.swift in Sources */,
+				1A6516A8223B0CD50002CC88 /* classE.swift in Sources */,
 				1A651688223AFFEB0002CC88 /* PauloLunaU2EP2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
